@@ -1,0 +1,7 @@
+1 - Al iniciar la aplicación el usuario podrá elegir entre leer las instrucciones, jugar o ver las máximas puntuaciones.
+2 - Al seleccionar leer las instrucciones el usuario verá el texto con las mismas y un botón para volver al menú principal o para salir de la aplicación.
+3 - Al ver las máximas puntuaciones el usuario tendrá un botón para volver al menú principal o para salir de la aplicación.
+4 - Al pulsar en jugar el usuario ve la primera pregunta con las dos respuestas y un botón para volver al menú principal (perdiendo los puntos acumulados).
+5 - Al contestar la última pregunta de la lista, se pide nombre para incluirlo en el listado de máximas puntuaciones y a continuación se mostrará el botón para volver al menú principal o para salir de la aplicación.
+6 - Pregunta acertada suma 10 puntos y pregunta fallida resta 5. No hay puntuaciones menores que 0.
+7 - En la lista de máximas puntuaciones sólo se guardan las 10 mejores: posición, nombre, puntuación y fecha.
