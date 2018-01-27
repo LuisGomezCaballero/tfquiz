@@ -1,14 +1,24 @@
 package com.luisgomezcaballero.tfquiz.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@Controller
 public class MainController {
 	
-	@RequestMapping("dummy")
-	public String dummyController() {
-		return "dummy";
+	@RequestMapping("/index")
+	public String index() {
+		return "index";
+	}
+	
+	@RequestMapping("/start")
+	public String start() {
+		return "start";
+	}
+	
+	@RequestMapping("/instructions")
+	public String instructions() {
+		return "instructions";
 	}
 	
 }
